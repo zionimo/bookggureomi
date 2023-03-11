@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+#wrapper {
+  background-color: rgb(178, 252, 236);
+  max-width: 430px;
+  min-width: 320px;
+  min-height: calc(100vh - 56px); /* 전체 높이-네브바 높이*/
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  max-width: 430px;
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  bottom: 0;
+}
+
+/* 민트색 #99D8D0 #75DAAD */
+/* 분홍색 #FFBCBC */
