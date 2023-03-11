@@ -8,7 +8,7 @@ import BookGraph from "./pages/BookGraph";
 import Library from "./pages/Library";
 import BookReview from "./pages/BookReview";
 import NotFound from "./components/NotFound.jsx";
-
+import BookDetail from "./components/BookDetail";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
+          <Route path="bookdetail" element={<BookDetail />} />
           <Route path="library" element={<Library />} />
           <Route path="bookgraph" element={<BookGraph />} />
           <Route path="bookreview" element={<BookReview />} />
