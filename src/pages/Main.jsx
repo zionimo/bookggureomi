@@ -1,5 +1,17 @@
+import BookSearch from "../components/BookSearch";
+
 const Main = () => {
-  return ( <div>메인 페이지</div> );
-}
- 
+  return (
+    <div>
+      <div>
+        <BookSearch />
+      </div>
+
+      <div>
+
+      </div>
+    </div>
+  );
+};
+
 export default Main;
