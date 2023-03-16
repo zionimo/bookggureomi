@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 import Header from "./Header";
 import noThumbnail from "../img/noThumbnail.jpg";
 import { useState } from "react";
-import BookSave from "./BookSave";
+import BookSave from "../components/toSave/BookSave";
 
 const BookDetail = () => {
   const [saveBook, setSaveBook] = useState(false);
@@ -41,7 +41,7 @@ const BookDetail = () => {
       </Header>
 
       {/* 인라인 css 설정해둠 수정할 것 */}
-      <div style={{ height: 250, background: "white" }}>
+      <div style={{ height: 200, background: "white" }}>
         {thumbnail ? (
           <img
             key={isbn}
@@ -95,9 +95,11 @@ const BookDetail = () => {
         )}
       </div>
 
+
       <div>
         <a href={url}>자세히 보기</a>
       </div>
+
       {saveBook && <BookSave />}
     </div>
   );
