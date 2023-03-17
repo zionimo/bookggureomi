@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { useState } from "react";
-import Finish from "./Fiinsh";
+import Finish from "./Finish";
 import Reading from "./Reading";
 import Wish from "./Wish";
 

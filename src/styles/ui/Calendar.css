@@ -1,0 +1,12 @@
+
+
+.react-datepicker__month-container {
+  height: 400px;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.react-datepicker__week > div {
+  font-size: 20px;
+}
