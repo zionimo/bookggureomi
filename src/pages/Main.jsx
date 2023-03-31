@@ -6,10 +6,6 @@ const Main = () => {
       <div>
         <BookSearch />
       </div>
-
-      <div>
-
-      </div>
     </div>
   );
 };
