@@ -6,6 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import AppStateProvider from "./providers/AppStateProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+
 root.render(
   <React.StrictMode>
     <AppStateProvider>
